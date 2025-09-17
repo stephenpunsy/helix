@@ -1,0 +1,17 @@
+name: Hello World Workflow
+
+    on:
+      push:
+        branches:
+          - main # This workflow runs on pushes to the 'main' branch
+
+    jobs:
+      say-hello:
+        runs-on: ubuntu-latest # Specify the runner environment
+
+        steps:
+          - name: Checkout code
+            uses: actions/checkout@v4 # Action to checkout your repository code
+
+          - name: Print Hello World message
+            run: echo "Hello, World!" # Command to print the message
