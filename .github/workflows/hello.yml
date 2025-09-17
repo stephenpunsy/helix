@@ -1,17 +1,17 @@
-name: Hello World Workflow
+name: CI
 
-    on:
-      push:
-        branches:
-          - main # This workflow runs on pushes to the 'main' branch
+on:
+   push:
+     branches:
+       - main
 
-    jobs:
-      say-hello:
-        runs-on: ubuntu-latest # Specify the runner environment
+jobs:
+   build:
+     runs-on: ubuntu-latest
 
-        steps:
-          - name: Checkout code
-            uses: actions/checkout@v4 # Action to checkout your repository code
+     steps:
+       - name: Get Your Code
+         uses: actions/checkout@v2
 
-          - name: Print Hello World message
-            run: echo "Hello, World!" # Command to print the message
+       - name: Say Hello to the World
+         run: echo "Hello, World!"
