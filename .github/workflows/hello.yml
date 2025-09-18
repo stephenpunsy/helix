@@ -12,7 +12,7 @@
         steps:
           - name: Make an API call with curl
             run: | 
-                curl --location --request PUT 'https://helixdemoash2739-demo-restapi.onbmc.com/api/arsys/v1/entry/CHG:Infrastructure Change/CRQ000000001002' \
+                curl --location --request PUT 'https://helixdemoash2739-demo-restapi.onbmc.com/api/arsys/v1/entry/CHG:Infrastructure%20Change/CRQ000000001002' \
                 --header 'Authorization: AR-JWT eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIhPSF7ZW5jfSE9IUFBQUFETEVpaWU3NGRTcldJQ2xLWkp5QWVIdUhzS3hBNVRESWZJZlVxb1ZYYS8ycyIsIl9sb2NhbGVMYW5ndWFnZSI6ImVuIiwibmJmIjoxNzU4MTYzNzc0LCJpc3MiOiJwbGF0Zm9ybS1mdHMtMC5wbGF0Zm9ybS1mdHMiLCJfbG9jYWxlQ291bnRyeSI6IlVTIiwiX2F1dGhTdHJpbmciOiIhPSF7ZW5jfSE9IUFBQUFETEVpaWU3NGRTcldJQ2xLWlBzb013eTZyN3JYNnBxbVN3Nm9hR0U9IiwiZXhwIjoxNzU4MTkyNjk0LCJfY2FjaGVJZCI6NzAxMjUxMiwiaWF0IjoxNzU4MTYzODk0LCJqdGkiOiJJREdBS0ZIVkpHMDYxQVRDUjlYWVRDUjlYWVg5SFoiLCJfYWJzb2x1dGVFeHBpcmF0aW9uVGltZSI6MTc1ODI1MDI5NH0.YvHT6y2Hfn1TT4-rOlgfcAiGAcywMYQcj_mtm1B-ErI' \
                 --header 'Content-Type: application/json' \
                 --header 'Cookie: AR-JWT=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIhPSF7ZW5jfSE9IUFBQUFETEVpaWU3NGRTcldJQ2xLWkp5QWVIdUhzS3hBNVRESWZJZlVxb1ZYYS8ycyIsIl9sb2NhbGVMYW5ndWFnZSI6ImVuIiwibmJmIjoxNzU4MTY0OTQ5LCJpc3MiOiJwbGF0Zm9ybS1mdHMtMC5wbGF0Zm9ybS1mdHMiLCJfbG9jYWxlQ291bnRyeSI6IlVTIiwiX2F1dGhTdHJpbmciOiIhPSF7ZW5jfSE9IUFBQUFETEVpaWU3NGRTcldJQ2xLWlBzb013eTZyN3JYNnBxbVN3Nm9hR0U9IiwiZXhwIjoxNzU4MTkzODY5LCJfY2FjaGVJZCI6NzAxMjUxMiwiaWF0IjoxNzU4MTY1MDY5LCJqdGkiOiJJREdBS0ZIVkpHMDYxQVRDUjlYWVRDUjlYWVg5SFoiLCJfYWJzb2x1dGVFeHBpcmF0aW9uVGltZSI6MTc1ODI1MDI5NH0.BL8xWint8FIF74o5n9DGuiGjwrXqXlZDsjYvYJsQx-c; _cacheId=7012512; route=1758163895.841.32859.894496|29699de60bb6a926dcf5ff3f221b6075' \
